@@ -997,10 +997,6 @@ More info can be found at [Restful Web Service for pdf2json.](https://github.com
 
 Participating in this project, you are expected to honor [open code of conduct](http://todogroup.org/opencodeofconduct/#Open+Code+of+Conduct/abuse@todogroup.org).
 
-## License
-
-Licensed under the [Apache License Version 2.0](https://github.com/modesty/pdf2json/blob/scratch/quadf-forms/license.txt).
-
 ## Support
 
 I'm currently running this project in my spare time. Thanks all for your [stars](https://github.com/modesty/pdf2json/stargazers) and [supports](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=modestyZ%40gmail%2ecom&lc=GB&item_name=modesty%20zhang&item_number=git%40github%2ecom%3amodesty%2fpdf2json%2egit&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHosted).
