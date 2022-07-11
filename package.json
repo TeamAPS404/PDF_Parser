@@ -17,14 +17,14 @@
     "pdf.js fork"
   ],
   "author": {
-    "name": "Modesty Zhang",
-    "email": "modestyz@hotmail.com",
-    "url": "http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=62372"
+    "name": "Team 404",
+    "email": "team.aps.404@gmail.com",
+    "url": "https://github.com/TeamAPS404/PDF_Parser"
   },
-  "homepage": "https://github.com/modesty/pdf2json",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/modesty/pdf2json.git"
+    "url": "https://github.com/TeamAPS404/PDF_Parser"
   },
   "main": "./pdfparser.js",
   "scripts": {
@@ -58,17 +58,17 @@
   ],
   "maintainers": [
     {
-      "name": "Modesty Zhang",
-      "email": "modestyz@hotmail.com",
-      "url": "http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=62372"
+      "name": "Team 404",
+      "email": "team.aps.404@gmail.com",
+      "url": "https://github.com/TeamAPS404"
     }
   ],
   "contributors": [],
   "bugs": {
-    "url": "http://github.com/modesty/pdf2json/issues"
+    "url": "https://github.com/TeamAPS404/PDF_Parser/issues"
   },
   "license": "Apache-2.0",
-  "readme": "https://github.com/modesty/pdf2json/blob/master/readme.md",
+  "readme": "https://github.com/TeamAPS404/PDF_Parser/blob/main/readme.md",
   "bundleDependencies": [
     "@xmldom/xmldom"
   ]
