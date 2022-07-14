@@ -16,7 +16,7 @@ To run this on your local system, you should have python and VS code installed. 
 pip install pymupdf
 ```
 
-## Use case
+## Example
 **Suppose we have a pdf file in our input folder.**
 <br>
 
@@ -29,7 +29,7 @@ pip install pymupdf
  
  ![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/haryana.json%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2009_39_07.png)
  
- ## How to run?
+ ## Use case
  Suppose we have a file for Kerala.
  
  ![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/kerala.pdf%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2010_14_30.png)
