@@ -28,26 +28,21 @@ pip install pymupdf
  
  ![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/kerala.pdf%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2010_14_30.png)
  
- We want to convert it into JSON. So first we will go to our IDE(VS Code) and go to the terminal and type
+ We want to convert it into JSON. So first we will go to our IDE(VS Code) and go to the terminal and write
  
  ```bash
-python parse.py -i ./input/kerala.pdf
+python parse.py --input=input/<file-name>.pdf --max=8 --root="h1"
 ```
 
-![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/haryana.json%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2010_11_39.png)
+![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/parse.py%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2010_37_06.png)
  
 The above command is written for kerala.pdf which is present inside our project in input folder. We can change the command according to the file we want to change.
 
 After we press enter, we will see a json file created in the output folder.
 
-![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/haryana.json%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2010_11_53.png)
+![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/kerala.json%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2010_39_35.png)
  
- Now, we can rename the JSON file as we want.
-
- ![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/haryana.json%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2010_12_10.png)
- 
- 
-
+ This output JSON will have same name as pdf.
 
 
 
