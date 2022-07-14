@@ -2,6 +2,7 @@
 
 ## Codefiesta project
 This is a project made for Codefiesta. It is a PDF parser that can be used to parse pdf files such as FIR reports and converts it into a JSON format.
+A PDF parser, or PDF scraper, is a tool that extracts data from PDF documents.
 
 ## Installation
 To run this on your local system, you should have python and VS code installed. Afterwards, you need to install a python library known as PyMuPDF. With this library, we can access pdf files. Open your command window and type the following command.
