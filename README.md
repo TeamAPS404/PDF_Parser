@@ -16,7 +16,7 @@ To run this on your local system, you should have python and VS code installed. 
 pip install pymupdf
 ```
 
-## How it works?
+## Use case
 **Suppose we have a pdf file in our input folder.**
 <br>
 
