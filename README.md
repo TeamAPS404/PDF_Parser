@@ -5,9 +5,10 @@ This is a project made for Codefiesta. It is a PDF parser that can be used to pa
 
 ## How to run ?
 To run this on your local system, you need to install a python library known as PyMuPDF. With this library, we can access pdf files. Open your command window and type the following command.
-<pre>
+
+```bash
 pip install pymupdf
-</pre>
+```
 
 
 
