@@ -41,8 +41,6 @@ python parse.py -i ./input/kerala.pdf
  
 The above command is written for kerala.pdf which is present inside our project in input folder. We can change the command according to the file we want to change.
 
-<br>
-
 After we press enter, we will see a json file created in the output folder.
 
 ![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/haryana.json%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2010_11_53.png)
