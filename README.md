@@ -4,6 +4,11 @@
 This is a project made for Codefiesta. It is a PDF parser that can be used to parse pdf files such as FIR reports and converts it into a JSON format.
 A PDF parser, or PDF scraper, is a tool that extracts data from PDF documents.
 
+## Problem Statement
+The Indian government gets more than a million FIR pdf files each year. To accomplish this, they usually assign data extraction duties to officers who are currently on duty. The whole process is time-consuming and requires much effort. To solve this problem, we present a PDF parser. To address this issue, we have developed a PDF parser.
+
+Extracting data from PDF documents is done by using a tool known as a PDF parser or scraper. Manual data entry (copy and paste) is the most typical approach when several documents need to be analyzed.
+
 ## Installation
 To run this on your local system, you should have python and VS code installed. Afterwards, you need to install a python library known as PyMuPDF. With this library, we can access pdf files. Open your command window and type the following command.
 
