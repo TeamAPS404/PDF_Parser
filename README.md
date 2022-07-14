@@ -3,7 +3,7 @@
 ## Codefiesta project
 This is a project made for Codefiesta. It is a PDF parser that can be used to parse pdf files such as FIR reports and converts it into a JSON format.
 
-## How to run ?
+## Installation
 To run this on your local system, you need to install a python library known as PyMuPDF. With this library, we can access pdf files. Open your command window and type the following command.
 
 ```bash
@@ -24,6 +24,7 @@ pip install pymupdf
  ![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/haryana.json%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2009_39_07.png)
  
  <br>
+ The input and output shown above are opened in VS Code.
  
 
 
