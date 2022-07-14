@@ -30,29 +30,29 @@ pip install pymupdf
 
 ## Code Snippets
 
-### def get_key(element: str) -> tuple[str, str]:
+#### def get_key(element: str) -> tuple[str, str]:
 This function returns the key for the element and the remaining text in the form of strings. It takes an element of type string and returns a tuple of key and text.
 
-### class Element(dict, Generic[T]):
+#### class Element(dict, Generic[T]):
 It represents an element of a type string with a key parameter in the document. The main function of this class is to add all the children to the parent element.
 
-### def make_nested_json(elements, max_header=6, root_header="h2", drop_keys=[]) -> tuple[ list[Element], list[Element] ]:
+#### def make_nested_json(elements, max_header=6, root_header="h2", drop_keys=[]) -> tuple[ list[Element], list[Element] ]:
 This function turns an element array into a nested JSON array with h1 as root.
 
-### def fonts(doc, granularity=False):
+#### def fonts(doc, granularity=False):
 This function is used to extract fonts and their usage in PDF documents. It takes a parameter doc which helps in iterating through the PDF document. It uses fonts flags and colors to discriminate text. It returns the most used fonts sorted by count, and font style information.
 
-### def font_keys(font_counts, styles):
+#### def font_keys(font_counts, styles):
 
 It returns a dictionary with font sizes as keys and keys as values. It takes font size and counts as parameters and returns all element keys based on font sizes.
 
-### def headers_para(doc, size_key):
+#### def headers_para(doc, size_key):
 This function scrapes headers & paragraphs from PDF and returns texts with element keys. It also takes a doc as a parameter to iterate through the pdf.
 
-### def build_dict(elements):
+#### def build_dict(elements):
 This function takes the list of elements and builds and returns a dictionary of all the elements.
 
-### def main():
+#### def main():
 This function mainly used argeparse library of Python.
 - Firstly, argeparse is used to get the input pdf file
 - Then use it to get the max header size and root header size
