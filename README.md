@@ -28,6 +28,8 @@ After cloning, you need to install a python library known as PyMuPDF. With this 
 pip install pymupdf
 ```
 
+## Code Snippets
+
 ## Example
 **Suppose we have a pdf file in our input folder.**
 <br>
