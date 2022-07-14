@@ -8,39 +8,39 @@ def test_get_tag():
 
 def test_make_folder_one_layer_json():
     from parse import make_nested_json
-    elements = ['<h2>Waterdeep Dragon Heist', '<h3>Chapter 1', '<p>So start by doing...']
+    elements = ['<h2>FIR Copy', '<h3>Complaint Information', '<p>So start by doing...']
     folders = make_nested_json(elements)
     assert len(folders) == 1
-    assert folders[0]['value'] == 'Waterdeep Dragon Heist'
+    assert folders[0]['value'] == 'FIR Copy'
     assert len(folders[0].children) == 1
-    assert folders[0].children[0]['value'] == 'Chapter 1'
+    assert folders[0].children[0]['value'] == 'Complaint Information'
 
 
 def test_make_folder_two_layer_json():
     from parse import make_nested_json
-    elements = ['<h2>Waterdeep Dragon Heist', '<h3>Chapter 1', '<h3>Chapter 2', '<p>So start by doing...', '<h2>Blue Alley', '<h3>Rewards', '<p>GOLD']
+    elements = ['<h2>FIR Copy', '<h3>Complaint Information', '<h3>Status', '<p>So start by doing...', '<h2>State', '<h3>Rewards', '<p>GOLD']
     folders = make_nested_json(elements)
     assert len(folders) == 2
-    assert folders[0]['value'] == 'Waterdeep Dragon Heist'
+    assert folders[0]['value'] == 'FIR Copy'
     assert len(folders[0].children) == 2
-    assert folders[1]['value'] == 'Blue Alley'
+    assert folders[1]['value'] == 'State'
 
 
 def test_make_folder_ignored_tags():
     from parse import make_nested_json
-    elements = ['<h2>Waterdeep Dragon Heist', '<s1>small text','<h3>Chapter 1', '<s2>Other text','<p>So start by doing...']
+    elements = ['<h2>FIR Copy', '<s1>small text','<h3>Complaint Information', '<s2>Other text','<p>So start by doing...']
     folders = make_nested_json(elements)
     assert len(folders) == 1
-    assert folders[0]['value'] == 'Waterdeep Dragon Heist'
+    assert folders[0]['value'] == 'FIR Copy'
     assert len(folders[0].children) == 1
-    assert folders[0].children[0]['value'] == 'Chapter 1'
+    assert folders[0].children[0]['value'] == 'Complaint Information'
 
 def test_element_ordering():
     from parse import make_nested_json
-    elements = ['<h2>Waterdeep Dragon Heist', '<h6>some sub section', '<h3>Chapter 1', '<h6>another sub section', '<h3>Chapter 2']
+    elements = ['<h2>FIR Copy', '<h6>some sub section', '<h3>Complaint Information', '<h6>another sub section', '<h3>Status']
     folders = make_nested_json(elements)
     assert len(folders) == 1
-    assert folders[0]['value'] == 'Waterdeep Dragon Heist'
+    assert folders[0]['value'] == 'FIR Copy'
     assert len(folders[0].children) == 3
-    assert folders[0].children[1]['value'] == 'Chapter 1'
-    assert folders[0].children[2]['value'] == 'Chapter 2'
+    assert folders[0].children[1]['value'] == 'Complaint Information'
+    assert folders[0].children[2]['value'] == 'Status'
