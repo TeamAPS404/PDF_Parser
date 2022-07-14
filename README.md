@@ -10,7 +10,16 @@ The Indian government gets more than a million FIR pdf files each year. To accom
 Extracting data from PDF documents is done by using a tool known as a PDF parser or scraper. Manual data entry (copy and paste) is the most typical approach when several documents need to be analyzed.
 
 ## Installation
-To run this on your local system, you should have python and VS code installed. Afterwards, you need to install a python library known as PyMuPDF. With this library, we can access pdf files. Open your command window and type the following command.
+To run this on your local system, you should have python and VS code installed.
+Now, you need to clone this repository, go to your command line and type
+
+```bash
+git clone https://github.com/TeamAPS404/PDF_Parser.git
+```
+
+The above command is used if you want to clone via HTTPS. You may do it with SSH or Github CLI as you want.
+
+After cloning, you need to install a python library known as PyMuPDF. With this library, we can access pdf files. Open your command window and type the following command.
 
 ```bash
 pip install pymupdf
