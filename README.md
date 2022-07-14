@@ -54,9 +54,9 @@ This function takes the list of elements and builds and returns a dictionary of 
 
 #### def main():
 This function mainly used argeparse library of Python.
-- Firstly, argeparse is used to get the input pdf file
-- Then use it to get the max header size and root header size
-- Now, the parameters are added to enable note reversal and to pass CSV of keys to drop
+- Firstly, argeparse is used to get the input pdf file.
+- Then use it to get the max header size and root header size.
+- Now, the parameters are added to enable note reversal and to pass CSV of keys to drop.
 - Then, we get all the font counts, styles, keys, headers, and paragraphs as well as the root header and max header. 
 - The drop key CSV is parsed into a list.
 - Finally, all the converted JSON code is written into the JSON file of the same name as the input file in the output directory, and all the elements are added to that JSON file.
