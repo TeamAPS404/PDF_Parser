@@ -19,6 +19,9 @@ git clone https://github.com/TeamAPS404/PDF_Parser.git
 
 The above command is used if you want to clone via HTTPS. You may do it with SSH or Github CLI as you want.
 
+![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/Meet%20-%20rak-jeum-fyv%20and%2011%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%2014-07-2022%2011_04_22%20(2).png)
+
+
 After cloning, you need to install a python library known as PyMuPDF. With this library, we can access pdf files. Open your command window and type the following command.
 
 ```bash
