@@ -21,7 +21,10 @@ pip install pymupdf
  **Output would be as under in the output folder when we run our code.**
  
  <br>
+ 
  ![alt text](https://github.com/TeamAPS404/PDF_Parser/blob/main/images/haryana.json%20-%20PDF_Parser%20-%20Visual%20Studio%20Code%2014-07-2022%2009_39_07.png)
+ 
+ <br>
  
 
 
